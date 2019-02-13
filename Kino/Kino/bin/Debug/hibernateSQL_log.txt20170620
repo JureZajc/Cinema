@@ -1,0 +1,2 @@
+﻿2017-06-20 21:53:08,801 DEBUG NHibernate.SQL - INSERT INTO cinema.employees (email, pass) VALUES (?p0, ?p1);?p0 = 'test1@scv.si' [Type: String (12)], ?p1 = '123' [Type: String (3)]
+2017-06-20 21:53:08,817 DEBUG NHibernate.SQL - SELECT LAST_INSERT_ID()

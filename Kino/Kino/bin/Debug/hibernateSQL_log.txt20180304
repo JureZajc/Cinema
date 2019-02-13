@@ -1,0 +1,2 @@
+﻿2018-03-04 17:10:07,319 DEBUG NHibernate.SQL - select employees0_.ID_employee as ID1_0_, employees0_.email as email0_, employees0_.pass as pass0_ from cinema.employees employees0_ where employees0_.email=?p0;?p0 = 'jz4314@student.uni-lj.si' [Type: String (24)]
+2018-03-04 17:10:07,384 DEBUG NHibernate.SQL - SELECT this_.ID_movie as ID1_1_0_, this_.movie_name as movie2_1_0_, this_.visitors as visitors1_0_ FROM cinema.movie this_

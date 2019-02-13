@@ -1,0 +1,55 @@
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\Kino.exe.config
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\Kino.exe
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\Kino.pdb
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\obj\Debug\Kino.Properties.Resources.resources
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\obj\Debug\Kino.csproj.GenerateResource.Cache
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\obj\Debug\Kino.exe
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\obj\Debug\Kino.pdb
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\obj\Debug\Kino.Employee.resources
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\obj\Debug\Kino.Welcome.resources
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\MySql.Data.dll
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\MySql.Data.xml
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\log4net.dll
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\log4net.xml
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\Iesi.Collections.dll
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\NHibernate.dll
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\NHibernate.Mapping.Attributes.dll
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\Iesi.Collections.pdb
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\Iesi.Collections.xml
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\NHibernate.pdb
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\bin\Debug\NHibernate.xml
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\obj\Debug\Kino.Login.resources
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\obj\Debug\Kino.csprojResolveAssemblyReference.cache
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\obj\Debug\Kino.Register.resources
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\obj\Debug\Kino.AccountInfo.resources
+e:\dokumenti\dokumenti\visual studio 2017\Projects\Kino\Kino\obj\Debug\Kino.Movies.resources
+F:\Kino\Kino\bin\Debug\Kino.exe.config
+F:\Kino\Kino\obj\Debug\Kino.exe
+F:\Kino\Kino\obj\Debug\Kino.pdb
+D:\Sam delaj\Kino\Kino\bin\Debug\Kino.exe.config
+D:\Sam delaj\Kino\Kino\bin\Debug\Kino.exe
+D:\Sam delaj\Kino\Kino\bin\Debug\Kino.pdb
+D:\Sam delaj\Kino\Kino\bin\Debug\Iesi.Collections.dll
+D:\Sam delaj\Kino\Kino\bin\Debug\log4net.dll
+D:\Sam delaj\Kino\Kino\bin\Debug\MySql.Data.dll
+D:\Sam delaj\Kino\Kino\bin\Debug\NHibernate.dll
+D:\Sam delaj\Kino\Kino\bin\Debug\NHibernate.Mapping.Attributes.dll
+D:\Sam delaj\Kino\Kino\bin\Debug\Iesi.Collections.pdb
+D:\Sam delaj\Kino\Kino\bin\Debug\Iesi.Collections.xml
+D:\Sam delaj\Kino\Kino\bin\Debug\log4net.xml
+D:\Sam delaj\Kino\Kino\bin\Debug\MySql.Data.xml
+D:\Sam delaj\Kino\Kino\bin\Debug\NHibernate.pdb
+D:\Sam delaj\Kino\Kino\bin\Debug\NHibernate.xml
+D:\Sam delaj\Kino\Kino\obj\Debug\Kino.csprojResolveAssemblyReference.cache
+D:\Sam delaj\Kino\Kino\obj\Debug\Kino.AccountInfo.resources
+D:\Sam delaj\Kino\Kino\obj\Debug\Kino.Employee.resources
+D:\Sam delaj\Kino\Kino\obj\Debug\Kino.Login.resources
+D:\Sam delaj\Kino\Kino\obj\Debug\Kino.Movies.resources
+D:\Sam delaj\Kino\Kino\obj\Debug\Kino.Register.resources
+D:\Sam delaj\Kino\Kino\obj\Debug\Kino.Welcome.resources
+D:\Sam delaj\Kino\Kino\obj\Debug\Kino.Properties.Resources.resources
+D:\Sam delaj\Kino\Kino\obj\Debug\Kino.csproj.GenerateResource.cache
+D:\Sam delaj\Kino\Kino\obj\Debug\Kino.csproj.CoreCompileInputs.cache
+D:\Sam delaj\Kino\Kino\obj\Debug\Kino.csproj.CopyComplete
+D:\Sam delaj\Kino\Kino\obj\Debug\Kino.exe
+D:\Sam delaj\Kino\Kino\obj\Debug\Kino.pdb

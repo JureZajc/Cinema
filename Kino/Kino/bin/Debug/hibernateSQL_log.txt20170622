@@ -1,0 +1,3 @@
+﻿2017-06-22 21:43:06,537 DEBUG NHibernate.SQL - select employees0_.ID_employee as ID1_8_, employees0_.email as email8_, employees0_.pass as pass8_ from cinema.employees employees0_ where employees0_.email=?p0;?p0 = '123' [Type: String (3)]
+2017-06-22 21:43:16,235 DEBUG NHibernate.SQL - select employees0_.ID_employee as ID1_0_, employees0_.email as email0_, employees0_.pass as pass0_ from cinema.employees employees0_ where employees0_.email=?p0;?p0 = '123' [Type: String (3)]
+2017-06-22 21:43:16,260 DEBUG NHibernate.SQL - UPDATE Employees e SET e.email ='123',e.pass ='123' WHERE e.email ='123'

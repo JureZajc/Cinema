@@ -1,0 +1,210 @@
+﻿2018-03-04 17:09:54,997 DEBUG NHibernate.Cfg.Configuration - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2018-03-04 17:09:54,997 DEBUG NHibernate.Cfg.Configuration - dialect=NHibernate.Dialect.MySQLDialect
+2018-03-04 17:09:54,997 DEBUG NHibernate.Cfg.Configuration - connection.driver_class=NHibernate.Driver.MySqlDataDriver
+2018-03-04 17:09:54,997 DEBUG NHibernate.Cfg.Configuration - use_proxy_validator=true
+2018-03-04 17:09:54,997 DEBUG NHibernate.Cfg.Configuration - connection.connection_string=Server=localhost;Database=cinema;User ID=root;Password=;Port=3306
+2018-03-04 17:09:54,997 DEBUG NHibernate.Cfg.Configuration - show_sql=true
+2018-03-04 17:09:54,997 DEBUG NHibernate.Cfg.Configuration - current_session_context_class=call
+2018-03-04 17:09:54,997 DEBUG NHibernate.Cfg.Configuration - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2018-03-04 17:09:55,160 INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQLDialect
+2018-03-04 17:09:55,160 INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Kino.Entity.Employees -> employees
+2018-03-04 17:09:55,160 DEBUG NHibernate.Cfg.XmlHbmBinding.Binder - Mapped property: Id -> ID_employee, type: Int32
+2018-03-04 17:09:55,160 DEBUG NHibernate.Cfg.XmlHbmBinding.Binder - Mapped property: email -> email, type: String
+2018-03-04 17:09:55,160 DEBUG NHibernate.Cfg.XmlHbmBinding.Binder - Mapped property: pass -> pass, type: String
+2018-03-04 17:09:55,160 INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Kino.Entity.Movie -> movie
+2018-03-04 17:09:55,160 DEBUG NHibernate.Cfg.XmlHbmBinding.Binder - Mapped property: Id -> ID_movie, type: Int32
+2018-03-04 17:09:55,160 DEBUG NHibernate.Cfg.XmlHbmBinding.Binder - Mapped property: movie_name -> movie_name, type: String
+2018-03-04 17:09:55,160 DEBUG NHibernate.Cfg.XmlHbmBinding.Binder - Mapped property: visitors -> visitors, type: String
+2018-03-04 17:09:55,160 WARN  NHibernate.Cfg.Configuration - No mapped documents found in assembly: Kino, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-03-04 17:09:55,160 INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQLDialect
+2018-03-04 17:09:55,160 INFO  NHibernate.Tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+2018-03-04 17:09:55,160 INFO  NHibernate.Tool.hbm2ddl.SchemaUpdate - fetching database metadata
+2018-03-04 17:09:55,160 INFO  NHibernate.Connection.ConnectionProviderFactory - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2018-03-04 17:09:55,160 INFO  NHibernate.Connection.ConnectionProvider - Configuring ConnectionProvider
+2018-03-04 17:09:55,160 DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
+2018-03-04 17:09:55,161 INFO  NHibernate.Tool.hbm2ddl.SchemaUpdate - updating schema
+2018-03-04 17:09:55,161 INFO  NHibernate.Cfg.Configuration - checking mappings queue
+2018-03-04 17:09:55,161 INFO  NHibernate.Cfg.Configuration - processing one-to-many association mappings
+2018-03-04 17:09:55,161 INFO  NHibernate.Cfg.Configuration - processing one-to-one association property references
+2018-03-04 17:09:55,161 INFO  NHibernate.Cfg.Configuration - processing foreign key constraints
+2018-03-04 17:09:55,161 INFO  NHibernate.Cfg.Configuration - processing filters (second pass)
+2018-03-04 17:09:55,321 INFO  NHibernate.Dialect.Schema.ITableMetadata - table found: def.cinema.employees
+2018-03-04 17:09:55,321 INFO  NHibernate.Dialect.Schema.ITableMetadata - columns: id_employee, email, pass
+2018-03-04 17:09:55,321 INFO  NHibernate.Dialect.Schema.ITableMetadata - foreign keys: 
+2018-03-04 17:09:55,321 INFO  NHibernate.Dialect.Schema.ITableMetadata - indexes: primary, email
+2018-03-04 17:09:55,383 INFO  NHibernate.Dialect.Schema.ITableMetadata - table found: def.cinema.movie
+2018-03-04 17:09:55,383 INFO  NHibernate.Dialect.Schema.ITableMetadata - columns: id_movie, movie_name, visitors
+2018-03-04 17:09:55,383 INFO  NHibernate.Dialect.Schema.ITableMetadata - foreign keys: 
+2018-03-04 17:09:55,383 INFO  NHibernate.Dialect.Schema.ITableMetadata - indexes: primary
+2018-03-04 17:09:55,383 INFO  NHibernate.Tool.hbm2ddl.SchemaUpdate - schema update complete
+2018-03-04 17:09:55,383 DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
+2018-03-04 17:09:55,383 INFO  NHibernate.Cfg.Configuration - checking mappings queue
+2018-03-04 17:09:55,383 INFO  NHibernate.Cfg.Configuration - processing one-to-many association mappings
+2018-03-04 17:09:55,383 INFO  NHibernate.Cfg.Configuration - processing one-to-one association property references
+2018-03-04 17:09:55,383 INFO  NHibernate.Cfg.Configuration - processing foreign key constraints
+2018-03-04 17:09:55,383 INFO  NHibernate.Cfg.Configuration - processing filters (second pass)
+2018-03-04 17:09:55,383 INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQLDialect
+2018-03-04 17:09:55,383 INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQLDialect
+2018-03-04 17:09:55,384 INFO  NHibernate.Exceptions.SQLExceptionConverterFactory - Using dialect defined converter
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - Generate SQL with comments: disabled
+2018-03-04 17:09:55,384 INFO  NHibernate.Connection.ConnectionProviderFactory - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2018-03-04 17:09:55,384 INFO  NHibernate.Connection.ConnectionProvider - Configuring ConnectionProvider
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - Optimize cache for minimal puts: False
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - Connection release mode: auto
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - Default batch fetch size: 1
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - echoing all SQL to stdout
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - Statistics: disabled
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - Query language substitutions: {}
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2018-03-04 17:09:55,384 DEBUG NHibernate.Cfg.SettingsFactory - Wrap result sets: disabled
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - Default entity-mode: Poco
+2018-03-04 17:09:55,384 INFO  NHibernate.Cfg.SettingsFactory - Named query checking : enabled
+2018-03-04 17:09:55,384 INFO  NHibernate.Impl.SessionFactoryImpl - building session factory
+2018-03-04 17:09:55,384 DEBUG NHibernate.Impl.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+2018-03-04 17:09:55,384 DEBUG NHibernate.Impl.SessionFactoryImpl - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'bytecode.provider'='lcg', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'dialect'='NHibernate.Dialect.MySQLDialect', 'connection.driver_class'='NHibernate.Driver.MySqlDataDriver', 'use_proxy_validator'='true', 'connection.connection_string'='Server=localhost;Database=cinema;User ID=root;Password=;Port=3306', 'show_sql'='true', 'current_session_context_class'='call'}
+2018-03-04 17:09:55,384 DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
+2018-03-04 17:09:55,385 DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
+2018-03-04 17:09:55,385 DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer - No custom accessors found for entity: Kino.Entity.Employees
+2018-03-04 17:09:55,385 DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer - No custom accessors found for entity: Kino.Entity.Employees
+2018-03-04 17:09:55,385 DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer - Create Instantiator using optimizer for:Kino.Entity.Employees
+2018-03-04 17:09:55,385 DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer - No custom accessors found for entity: Kino.Entity.Movie
+2018-03-04 17:09:55,385 DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer - No custom accessors found for entity: Kino.Entity.Movie
+2018-03-04 17:09:55,385 DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer - Create Instantiator using optimizer for:Kino.Entity.Movie
+2018-03-04 17:09:55,385 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Static SQL for entity: Kino.Entity.Employees
+2018-03-04 17:09:55,385 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister -  Version select: SELECT ID_employee FROM cinema.employees WHERE ID_employee = ?
+2018-03-04 17:09:55,385 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister -  Snapshot select: SELECT employees_.ID_employee, employees_.email as email4_, employees_.pass as pass4_ FROM cinema.employees employees_ WHERE employees_.ID_employee=?
+2018-03-04 17:09:55,385 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister -  Insert 0: INSERT INTO cinema.employees (email, pass, ID_employee) VALUES (?, ?, ?)
+2018-03-04 17:09:55,385 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister -  Update 0: UPDATE cinema.employees SET email = ?, pass = ? WHERE ID_employee = ?
+2018-03-04 17:09:55,385 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister -  Delete 0: DELETE FROM cinema.employees WHERE ID_employee = ?
+2018-03-04 17:09:55,385 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister -  Identity insert: INSERT INTO cinema.employees (email, pass) VALUES (?, ?)
+2018-03-04 17:09:55,385 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for entity Kino.Entity.Employees: SELECT employees0_.ID_employee as ID1_4_0_, employees0_.email as email4_0_, employees0_.pass as pass4_0_ FROM cinema.employees employees0_ WHERE employees0_.ID_employee=?
+2018-03-04 17:09:55,385 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for entity Kino.Entity.Employees: SELECT employees0_.ID_employee as ID1_4_0_, employees0_.email as email4_0_, employees0_.pass as pass4_0_ FROM cinema.employees employees0_ WHERE employees0_.ID_employee=?
+2018-03-04 17:09:55,385 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for entity Kino.Entity.Employees: SELECT employees0_.ID_employee as ID1_4_0_, employees0_.email as email4_0_, employees0_.pass as pass4_0_ FROM cinema.employees employees0_ WHERE employees0_.ID_employee=? for update
+2018-03-04 17:09:55,386 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for entity Kino.Entity.Employees: SELECT employees0_.ID_employee as ID1_4_0_, employees0_.email as email4_0_, employees0_.pass as pass4_0_ FROM cinema.employees employees0_ WHERE employees0_.ID_employee=? for update
+2018-03-04 17:09:55,386 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for entity Kino.Entity.Employees: SELECT employees0_.ID_employee as ID1_4_0_, employees0_.email as email4_0_, employees0_.pass as pass4_0_ FROM cinema.employees employees0_ WHERE employees0_.ID_employee=? for update
+2018-03-04 17:09:55,386 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity Kino.Entity.Employees: SELECT employees0_.ID_employee as ID1_4_0_, employees0_.email as email4_0_, employees0_.pass as pass4_0_ FROM cinema.employees employees0_ WHERE employees0_.ID_employee=?
+2018-03-04 17:09:55,386 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity Kino.Entity.Employees: SELECT employees0_.ID_employee as ID1_4_0_, employees0_.email as email4_0_, employees0_.pass as pass4_0_ FROM cinema.employees employees0_ WHERE employees0_.ID_employee=?
+2018-03-04 17:09:55,386 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Static SQL for entity: Kino.Entity.Movie
+2018-03-04 17:09:55,386 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister -  Version select: SELECT ID_movie FROM cinema.movie WHERE ID_movie = ?
+2018-03-04 17:09:55,386 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister -  Snapshot select: SELECT movie_.ID_movie, movie_.movie_name as movie2_5_, movie_.visitors as visitors5_ FROM cinema.movie movie_ WHERE movie_.ID_movie=?
+2018-03-04 17:09:55,386 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister -  Insert 0: INSERT INTO cinema.movie (movie_name, visitors, ID_movie) VALUES (?, ?, ?)
+2018-03-04 17:09:55,386 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister -  Update 0: UPDATE cinema.movie SET movie_name = ?, visitors = ? WHERE ID_movie = ?
+2018-03-04 17:09:55,386 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister -  Delete 0: DELETE FROM cinema.movie WHERE ID_movie = ?
+2018-03-04 17:09:55,386 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister -  Identity insert: INSERT INTO cinema.movie (movie_name, visitors) VALUES (?, ?)
+2018-03-04 17:09:55,386 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for entity Kino.Entity.Movie: SELECT movie0_.ID_movie as ID1_5_0_, movie0_.movie_name as movie2_5_0_, movie0_.visitors as visitors5_0_ FROM cinema.movie movie0_ WHERE movie0_.ID_movie=?
+2018-03-04 17:09:55,386 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for entity Kino.Entity.Movie: SELECT movie0_.ID_movie as ID1_5_0_, movie0_.movie_name as movie2_5_0_, movie0_.visitors as visitors5_0_ FROM cinema.movie movie0_ WHERE movie0_.ID_movie=?
+2018-03-04 17:09:55,386 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for entity Kino.Entity.Movie: SELECT movie0_.ID_movie as ID1_5_0_, movie0_.movie_name as movie2_5_0_, movie0_.visitors as visitors5_0_ FROM cinema.movie movie0_ WHERE movie0_.ID_movie=? for update
+2018-03-04 17:09:55,386 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for entity Kino.Entity.Movie: SELECT movie0_.ID_movie as ID1_5_0_, movie0_.movie_name as movie2_5_0_, movie0_.visitors as visitors5_0_ FROM cinema.movie movie0_ WHERE movie0_.ID_movie=? for update
+2018-03-04 17:09:55,386 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for entity Kino.Entity.Movie: SELECT movie0_.ID_movie as ID1_5_0_, movie0_.movie_name as movie2_5_0_, movie0_.visitors as visitors5_0_ FROM cinema.movie movie0_ WHERE movie0_.ID_movie=? for update
+2018-03-04 17:09:55,386 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity Kino.Entity.Movie: SELECT movie0_.ID_movie as ID1_5_0_, movie0_.movie_name as movie2_5_0_, movie0_.visitors as visitors5_0_ FROM cinema.movie movie0_ WHERE movie0_.ID_movie=?
+2018-03-04 17:09:55,386 DEBUG NHibernate.Loader.Entity.AbstractEntityLoader - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity Kino.Entity.Movie: SELECT movie0_.ID_movie as ID1_5_0_, movie0_.movie_name as movie2_5_0_, movie0_.visitors as visitors5_0_ FROM cinema.movie movie0_ WHERE movie0_.ID_movie=?
+2018-03-04 17:09:55,386 DEBUG NHibernate.Impl.SessionFactoryObjectFactory - registered: 4b982675a94d4bd1925bf6136e05a7a7(unnamed)
+2018-03-04 17:09:55,386 INFO  NHibernate.Impl.SessionFactoryObjectFactory - no name configured
+2018-03-04 17:09:55,386 DEBUG NHibernate.Impl.SessionFactoryImpl - Instantiated session factory
+2018-03-04 17:09:55,386 DEBUG NHibernate.Impl.SessionFactoryImpl - Checking 0 named HQL queries
+2018-03-04 17:09:55,386 DEBUG NHibernate.Impl.SessionFactoryImpl - Checking 0 named SQL queries
+2018-03-04 17:09:55,386 DEBUG NHibernate.Impl.SessionImpl - [session-id=d2374685-9fd5-4a51-b366-1f1b991c5358] opened session at timestamp: 636557801953, for session factory: [/4b982675a94d4bd1925bf6136e05a7a7]
+2018-03-04 17:10:07,082 DEBUG NHibernate.Transaction.AdoTransaction - Begin (Unspecified)
+2018-03-04 17:10:07,082 DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
+2018-03-04 17:10:07,089 DEBUG NHibernate.Engine.Query.QueryPlanCache - unable to locate HQL query plan in cache; generating (from Employees d where d.email = ?)
+2018-03-04 17:10:07,113 DEBUG NHibernate.Hql.Ast.ANTLR.HqlParseEngine - parse() - HQL: from Employees d where d.email = ?
+2018-03-04 17:10:07,159 DEBUG NHibernate.Hql.Ast.ANTLR.ErrorCounter - throwQueryException() : no errors
+2018-03-04 17:10:07,187 DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker - select << begin [level=1, statement=select]
+2018-03-04 17:10:07,197 DEBUG NHibernate.Hql.Ast.ANTLR.Tree.FromElement - FromClause{level=1} :  Kino.Entity.Employees (d) -> employees0_
+2018-03-04 17:10:07,214 DEBUG NHibernate.Hql.Ast.ANTLR.Tree.FromReferenceNode - Resolved :  d -> employees0_.ID_employee
+2018-03-04 17:10:07,219 INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Kino.Entity.Employees (d) -> email (Class)]
+2018-03-04 17:10:07,221 DEBUG NHibernate.Hql.Ast.ANTLR.Tree.DotNode - getDataType() : email -> NHibernate.Type.StringType
+2018-03-04 17:10:07,223 DEBUG NHibernate.Hql.Ast.ANTLR.Tree.FromReferenceNode - Resolved :  d.email -> employees0_.email
+2018-03-04 17:10:07,229 DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker - select : finishing up [level=1, statement=select]
+2018-03-04 17:10:07,231 DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker - processQuery() : ( SELECT ( FromClause{level=1} cinema.employees employees0_ ) ( where ( = ( employees0_.email employees0_.ID_employee email ) ? ) ) )
+2018-03-04 17:10:07,237 DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker - Derived SELECT clause created.
+2018-03-04 17:10:07,244 DEBUG NHibernate.Hql.Ast.ANTLR.Util.JoinProcessor - Using FROM fragment [cinema.employees employees0_]
+2018-03-04 17:10:07,245 DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker - select >> end [level=1, statement=select]
+2018-03-04 17:10:07,245 DEBUG NHibernate.Hql.Ast.ANTLR.ErrorCounter - throwQueryException() : no errors
+2018-03-04 17:10:07,270 DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlGenerator - SQL: select employees0_.ID_employee as ID1_0_, employees0_.email as email0_, employees0_.pass as pass0_ from cinema.employees employees0_ where employees0_.email=?
+2018-03-04 17:10:07,270 DEBUG NHibernate.Hql.Ast.ANTLR.ErrorCounter - throwQueryException() : no errors
+2018-03-04 17:10:07,287 DEBUG NHibernate.Engine.Query.QueryPlanCache - located HQL query plan in cache (from Employees d where d.email = ?)
+2018-03-04 17:10:07,290 DEBUG NHibernate.Engine.Query.HQLQueryPlan - find: from Employees d where d.email = ?
+2018-03-04 17:10:07,291 DEBUG NHibernate.Engine.QueryParameters - parameters: ['jz4314@student.uni-lj.si']
+2018-03-04 17:10:07,292 DEBUG NHibernate.Engine.QueryParameters - named parameters: {}
+2018-03-04 17:10:07,313 DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
+2018-03-04 17:10:07,313 DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: select employees0_.ID_employee as ID1_0_, employees0_.email as email0_, employees0_.pass as pass0_ from cinema.employees employees0_ where employees0_.email=?
+2018-03-04 17:10:07,314 DEBUG NHibernate.Type.StringType - binding 'jz4314@student.uni-lj.si' to parameter: 0
+2018-03-04 17:10:07,317 INFO  NHibernate.Loader.Loader - select employees0_.ID_employee as ID1_0_, employees0_.email as email0_, employees0_.pass as pass0_ from cinema.employees employees0_ where employees0_.email=?p0
+2018-03-04 17:10:07,319 DEBUG NHibernate.SQL - select employees0_.ID_employee as ID1_0_, employees0_.email as email0_, employees0_.pass as pass0_ from cinema.employees employees0_ where employees0_.email=?p0;?p0 = 'jz4314@student.uni-lj.si' [Type: String (24)]
+2018-03-04 17:10:07,320 DEBUG NHibernate.Transaction.AdoTransaction - Enlist Command
+2018-03-04 17:10:07,322 DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 1 ms
+2018-03-04 17:10:07,322 DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
+2018-03-04 17:10:07,323 DEBUG NHibernate.Loader.Loader - processing result set
+2018-03-04 17:10:07,324 DEBUG NHibernate.Loader.Loader - result set row: 0
+2018-03-04 17:10:07,325 DEBUG NHibernate.Type.Int32Type - returning '13' as column: ID1_0_
+2018-03-04 17:10:07,327 DEBUG NHibernate.Loader.Loader - result row: EntityKey[Kino.Entity.Employees#13]
+2018-03-04 17:10:07,331 DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [Kino.Entity.Employees#13]
+2018-03-04 17:10:07,334 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [Kino.Entity.Employees#13]
+2018-03-04 17:10:07,334 DEBUG NHibernate.Type.StringType - returning 'jz4314@student.uni-lj.si' as column: email0_
+2018-03-04 17:10:07,334 DEBUG NHibernate.Type.StringType - returning '123' as column: pass0_
+2018-03-04 17:10:07,335 DEBUG NHibernate.Loader.Loader - done processing result set (1 rows)
+2018-03-04 17:10:07,336 DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
+2018-03-04 17:10:07,336 DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
+2018-03-04 17:10:07,336 DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 16 ms
+2018-03-04 17:10:07,337 DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
+2018-03-04 17:10:07,338 DEBUG NHibernate.Loader.Loader - total objects hydrated: 1
+2018-03-04 17:10:07,340 DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [Kino.Entity.Employees#13]
+2018-03-04 17:10:07,342 DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [Kino.Entity.Employees#13]
+2018-03-04 17:10:07,342 DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
+2018-03-04 17:10:07,345 DEBUG NHibernate.Transaction.AdoTransaction - Start Commit
+2018-03-04 17:10:07,346 DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - flushing session
+2018-03-04 17:10:07,347 DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - processing flush-time cascades
+2018-03-04 17:10:07,349 DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - dirty checking collections
+2018-03-04 17:10:07,349 DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Flushing entities and processing referenced collections
+2018-03-04 17:10:07,355 DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Processing unreferenced collections
+2018-03-04 17:10:07,355 DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Scheduling collection removes/(re)creates/updates
+2018-03-04 17:10:07,355 DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2018-03-04 17:10:07,355 DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2018-03-04 17:10:07,356 DEBUG NHibernate.Impl.Printer - listing entities:
+2018-03-04 17:10:07,356 DEBUG NHibernate.Impl.Printer - Kino.Entity.Employees{'Id'='13', 'email'='jz4314@student.uni-lj.si', 'pass'='123'}
+2018-03-04 17:10:07,357 DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - executing flush
+2018-03-04 17:10:07,357 DEBUG NHibernate.AdoNet.ConnectionManager - registering flush begin
+2018-03-04 17:10:07,357 DEBUG NHibernate.AdoNet.ConnectionManager - registering flush end
+2018-03-04 17:10:07,358 DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - post flush
+2018-03-04 17:10:07,359 DEBUG NHibernate.Impl.SessionImpl - before transaction completion
+2018-03-04 17:10:07,359 DEBUG NHibernate.Transaction.AdoTransaction - IDbTransaction Committed
+2018-03-04 17:10:07,360 DEBUG NHibernate.Impl.SessionImpl - transaction completion
+2018-03-04 17:10:07,360 DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+2018-03-04 17:10:07,360 DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
+2018-03-04 17:10:07,362 DEBUG NHibernate.Transaction.AdoTransaction - IDbTransaction disposed.
+2018-03-04 17:10:07,377 DEBUG NHibernate.Loader.Criteria.CriteriaQueryTranslator - put criteria= alias=this0_
+2018-03-04 17:10:07,383 DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
+2018-03-04 17:10:07,383 DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT this_.ID_movie as ID1_1_0_, this_.movie_name as movie2_1_0_, this_.visitors as visitors1_0_ FROM cinema.movie this_
+2018-03-04 17:10:07,384 INFO  NHibernate.Loader.Loader - SELECT this_.ID_movie as ID1_1_0_, this_.movie_name as movie2_1_0_, this_.visitors as visitors1_0_ FROM cinema.movie this_
+2018-03-04 17:10:07,384 DEBUG NHibernate.SQL - SELECT this_.ID_movie as ID1_1_0_, this_.movie_name as movie2_1_0_, this_.visitors as visitors1_0_ FROM cinema.movie this_
+2018-03-04 17:10:07,384 DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
+2018-03-04 17:10:07,384 DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
+2018-03-04 17:10:07,384 DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
+2018-03-04 17:10:07,384 DEBUG NHibernate.Loader.Loader - processing result set
+2018-03-04 17:10:07,385 DEBUG NHibernate.Loader.Loader - result set row: 0
+2018-03-04 17:10:07,385 DEBUG NHibernate.Type.Int32Type - returning '1' as column: ID1_1_0_
+2018-03-04 17:10:07,385 DEBUG NHibernate.Loader.Loader - result row: EntityKey[Kino.Entity.Movie#1]
+2018-03-04 17:10:07,385 DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [Kino.Entity.Movie#1]
+2018-03-04 17:10:07,385 DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [Kino.Entity.Movie#1]
+2018-03-04 17:10:07,385 DEBUG NHibernate.Type.StringType - returning 'Elektra' as column: movie2_1_0_
+2018-03-04 17:10:07,385 DEBUG NHibernate.Type.StringType - returning '25000' as column: visitors1_0_
+2018-03-04 17:10:07,385 DEBUG NHibernate.Loader.Loader - done processing result set (1 rows)
+2018-03-04 17:10:07,386 DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
+2018-03-04 17:10:07,386 DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
+2018-03-04 17:10:07,386 DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 1 ms
+2018-03-04 17:10:07,386 DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
+2018-03-04 17:10:07,386 DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+2018-03-04 17:10:07,386 DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
+2018-03-04 17:10:07,386 DEBUG NHibernate.Loader.Loader - total objects hydrated: 1
+2018-03-04 17:10:07,386 DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [Kino.Entity.Movie#1]
+2018-03-04 17:10:07,386 DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [Kino.Entity.Movie#1]
+2018-03-04 17:10:07,386 DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
+2018-03-04 17:10:07,387 DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
+2018-03-04 17:10:07,387 DEBUG NHibernate.Impl.SessionImpl - transaction completion
+2018-03-04 17:10:07,387 DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
